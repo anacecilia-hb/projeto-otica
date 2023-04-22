@@ -1,0 +1,65 @@
+/*SECAO CONTATO*/
+.secao-contato{
+
+ width: 100%;
+ text-align: center;
+ color: #fff;
+ padding: 100px 20px;
+ background-color: #05031b;
+
+}
+
+.contato-container{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.contato-conteudo{
+
+display: flex;
+flex-direction: column;
+text-align: left;
+padding: 15px;
+
+
+}
+
+.contato-conteudo div{
+    align-items: center;
+    margin: 5px 0;
+
+}
+
+.contato-conteudo img{
+    width: 18px;
+}
+
+.contato-conteudo p{
+    display: inline;
+    font-size: 14px;
+    margin-left: 10px;
+}
+/*TELA RESPONSIVA - 768PX*/
+@media (max-width: 768px){
+    .secao-contato{
+        padding: 60px 20px;
+    }
+}
+/*TELA RESPONSIVA - 768PX*/
+@media (max-width: 500px){
+    .contato-container{
+        flex-direction: column;
+    }
+
+    .contato-conteudo{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato-conteudo div{
+        width: 200px;
+    }
+}

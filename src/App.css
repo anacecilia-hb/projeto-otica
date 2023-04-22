@@ -1,0 +1,21 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Anybody', cursive;
+}
+
+.limitar-secao{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+h1,h2,h3{
+  text-transform: uppercase;
+  font-size: 36px;
+  margin: 0;
+}
